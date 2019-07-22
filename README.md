@@ -12,7 +12,7 @@ Through this concept, we create a unified final state probability distribution b
 the two and proceed with the execution on the **QASM** simulator, a quantum virtual
 machine.
 
-### The text diagram of the resulting circuit
+### The plaintext diagram of the resulting circuit
 ```  
          ┌───┐   
 q0_0: |0>┤ H ├──■──
