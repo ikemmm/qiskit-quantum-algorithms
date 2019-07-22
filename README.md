@@ -9,7 +9,7 @@ In this state, 2 qubits are entangled to create a link between their final and i
 Let X and Y be qubits.
 When qubit X collapses into the state 0, Y then must be in the state 1.
 Through this concept, we create a unified final state probability distribution between
-the two and proceed with the execution on the QASM simulator, a quantum virtual
+the two and proceed with the execution on the **QASM** simulator, a quantum virtual
 machine.
 
 ### The ASCII diagram of the resulting circuit
