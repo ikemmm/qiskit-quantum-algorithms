@@ -27,7 +27,7 @@ qc.cx(qr[0], qr[1])
 measure_z = qk.QuantumCircuit(qr, cr)
 measure_z.measure(qr, cr)
 
-# Execute the job and take the measure with the specified number of shots.
+# Execute the job and take the measurement with the specified number of shots.
 test_z = qc + measure_z
 job_1 = qk.execute([test_z], backend, shots = STATE_MEASURES)
 counts = job_1.result().get_counts(test_z)
