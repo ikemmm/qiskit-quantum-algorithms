@@ -11,7 +11,7 @@ import qiskit as qk
 from qiskit import execute, BasicAer
 backend = BasicAer.get_backend('qasm_simulator')
 
-STATE_MEASURES = 10000
+STATE_MEASUREMENTS = 10000
 
 # Create the circuit registers.
 qr = qk.QuantumRegister(2)
@@ -29,7 +29,7 @@ measure_z.measure(qr, cr)
 
 # Execute the job and take the measurement with the specified number of shots.
 test_z = qc + measure_z
-job_1 = qk.execute([test_z], backend, shots = STATE_MEASURES)
+job_1 = qk.execute([test_z], backend, shots = STATE_MEASUREMENTS)
 counts = job_1.result().get_counts(test_z)
 
 print(counts)
