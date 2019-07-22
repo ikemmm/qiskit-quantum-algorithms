@@ -11,7 +11,8 @@ We then proceed with the execution on the QASM simulator, a quantum
 virtual machine.
 
 ### The ASCII diagram of the resulting circuit
-```      ┌───┐   
+```  
+         ┌───┐   
 q0_0: |0>┤ H ├──■──
          └───┘┌─┴─┐
 q0_1: |0>─────┤ X ├
@@ -19,4 +20,5 @@ q0_1: |0>─────┤ X ├
  c0_0: 0 ══════════
                    
  c0_1: 0 ══════════
+
 ```
